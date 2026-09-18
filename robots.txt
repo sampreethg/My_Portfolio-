@@ -1,0 +1,6 @@
+# robots.txt for https://sampreethg.github.io/
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://sampreethg.github.io/sitemap.xml

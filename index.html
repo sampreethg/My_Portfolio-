@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary SEO Meta Tags -->
+  <title>Sampreeth G | Full-Stack Developer, AI &amp; IoT Systems Engineer</title>
+  <meta name="title" content="Sampreeth G | Full-Stack Developer, AI &amp; IoT Systems Engineer">
+  <meta name="description"
+    content="Portfolio of Sampreeth G — Full-Stack Developer, AI specialist, and IoT systems engineer building scalable web applications, GradeVision AI, smart systems, and hackathon projects.">
+  <meta name="keywords"
+    content="Sampreeth G, Full-Stack Developer, AI Engineer, IoT Solutions, GradeVision AI, Web Development, Machine Learning, Sri Shakthi Institute of Engineering and Technology, Coimbatore, Hackathon Projects, Software Engineer Portfolio">
+  <meta name="author" content="Sampreeth G">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://sampreethg.github.io/">
+  <meta name="theme-color" content="#020c1b">
+
+  <!-- Open Graph / Facebook / LinkedIn / WhatsApp -->
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Sampreeth G Portfolio">
+  <meta property="og:title" content="Sampreeth G | Full-Stack Developer, AI &amp; IoT Systems Engineer">
+  <meta property="og:description"
+    content="Portfolio of Sampreeth G — Full-Stack Developer, AI specialist, and IoT systems engineer building scalable web applications, GradeVision AI, smart systems, and hackathon projects.">
+  <meta property="og:url" content="https://sampreethg.github.io/">
+  <meta property="og:image" content="https://sampreethg.github.io/profile.jpeg">
+  <meta property="og:image:secure_url" content="https://sampreethg.github.io/profile.jpeg">
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="800">
+  <meta property="og:image:alt" content="Sampreeth G - Full-Stack Developer, AI &amp; IoT Systems Engineer">
+
+  <!-- Twitter Card Metadata -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://sampreethg.github.io/">
+  <meta name="twitter:title" content="Sampreeth G | Full-Stack Developer, AI &amp; IoT Systems Engineer">
+  <meta name="twitter:description"
+    content="Portfolio of Sampreeth G — Full-Stack Developer, AI specialist, and IoT systems engineer building scalable web applications, GradeVision AI, smart systems, and hackathon projects.">
+  <meta name="twitter:image" content="https://sampreethg.github.io/profile.jpeg">
+  <meta name="twitter:image:alt" content="Sampreeth G - Full-Stack Developer, AI &amp; IoT Systems Engineer">
+
+  <!-- Structured Data (JSON-LD) for Google Rich Snippets -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Sampreeth G",
+  "alternateName": "Sampreeth",
+  "jobTitle": "Full-Stack Developer & AI Systems Engineer",
+  "description": "Full-Stack Developer, AI specialist, and IoT systems engineer building modern web applications, AI evaluation platforms, and hackathon innovations.",
+  "url": "https://sampreethg.github.io/",
+  "image": "https://sampreethg.github.io/profile.jpeg",
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Sri Shakthi Institute of Engineering and Technology",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Coimbatore",
+      "addressCountry": "India"
+    }
+  },
+  "knowsAbout": [
+    "Full-Stack Web Development",
+    "Artificial Intelligence",
+    "Internet of Things (IoT)",
+    "Machine Learning & OCR",
+    "Python",
+    "JavaScript",
+    "Node.js",
+    "Java",
+    "Hackathons"
+  ],
+  "sameAs": [
+    "https://github.com/sampreethg",
+    "https://www.linkedin.com/in/sampreeth-g-329224374"
+  ]
+}
+</script>
+
+  <!-- Font Preconnect & Stylesheets -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --navy: #020c1b;
+      --navy2: #0a192f;
+      --navy3: #112240;
+      --slate: #8892b0;
+      --light-slate: #a8b2d8;
+      --lightest-slate: #ccd6f6;
+      --white: #e6f1ff;
+      --accent: #64ffda;
+      --accent2: #57cbff;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--navy);
+      color: var(--slate);
+      overflow-x: hidden;
+      /* FIX: force text to always be selectable/copyable, overriding any
+       inherited or host-injected user-select restriction */
+      -webkit-user-select: text !important;
+      -moz-user-select: text !important;
+      user-select: text !important;
+    }
+
+    /* GATE */
+    #gate {
+      position: fixed;
+      inset: 0;
+      background: var(--navy);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    #gate canvas {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+    }
+
+    .gate-box {
+      position: relative;
+      z-index: 2;
+      background: rgba(17, 34, 64, 0.9);
+      border: 1px solid rgba(100, 255, 218, 0.2);
+      border-radius: 16px;
+      padding: 2.5rem 2.5rem 2rem;
+      max-width: 400px;
+      width: 90%;
+      text-align: center;
+      backdrop-filter: blur(10px);
+    }
+
+    .gate-box h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.5rem;
+      color: var(--lightest-slate);
+      margin-bottom: .5rem;
+    }
+
+    .gate-box p {
+      font-size: .9rem;
+      color: var(--slate);
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+
+    .gate-box input {
+      width: 100%;
+      padding: .75rem 1rem;
+      background: rgba(2, 12, 27, 0.8);
+      border: 1px solid rgba(100, 255, 218, 0.25);
+      border-radius: 8px;
+      color: var(--white);
+      font-size: .95rem;
+      outline: none;
+      transition: border-color .3s;
+      margin-bottom: .4rem;
+    }
+
+    .gate-box input:focus {
+      border-color: var(--accent);
+    }
+
+    .gate-error {
+      font-size: .8rem;
+      color: #ff6b6b;
+      min-height: 1.2rem;
+      margin-bottom: .8rem;
+      text-align: left;
+    }
+
+    .gate-btn {
+      width: 100%;
+      padding: .75rem;
+      background: transparent;
+      border: 1px solid var(--accent);
+      border-radius: 8px;
+      color: var(--accent);
+      font-size: .95rem;
+      font-weight: 500;
+      cursor: pointer;
+      letter-spacing: .05em;
+      transition: background .2s, color .2s;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .gate-btn:hover {
+      background: rgba(100, 255, 218, 0.08);
+    }
+
+    .gate-note {
+      font-size: .75rem;
+      color: var(--slate);
+      margin-top: 1rem;
+      opacity: .7;
+    }
+
+    /* CANVAS BG */
+    #bg-canvas {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      padding: .9rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(2, 12, 27, 0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(100, 255, 218, 0.08);
+      transition: background .3s;
+    }
+
+    .nav-logo {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: .05em;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-size: .85rem;
+      color: var(--light-slate);
+      text-decoration: none;
+      letter-spacing: .08em;
+      transition: color .2s;
+    }
+
+    .nav-links a:hover {
+      color: var(--accent);
+    }
+
+    /* MAIN */
+    main {
+      position: relative;
+      z-index: 1;
+    }
+
+    /* HERO */
+    #hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 0 10vw;
+    }
+
+    .hero-inner {
+      max-width: 700px;
+    }
+
+    .hero-tag {
+      font-size: .85rem;
+      color: var(--accent);
+      letter-spacing: .15em;
+      margin-bottom: 1.2rem;
+      font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .hero-name {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      font-weight: 700;
+      color: var(--lightest-slate);
+      line-height: 1.1;
+      margin-bottom: .6rem;
+    }
+
+    .hero-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(1.5rem, 3vw, 2.5rem);
+      font-weight: 600;
+      color: var(--slate);
+      margin-bottom: 1.4rem;
+    }
+
+    .hero-desc {
+      font-size: 1rem;
+      line-height: 1.8;
+      max-width: 520px;
+      margin-bottom: 2rem;
+      color: var(--slate);
+    }
+
+    .hero-college {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      font-size: .82rem;
+      color: var(--accent2);
+      margin-bottom: 2rem;
+      opacity: .85;
+    }
+
+    .hero-college svg {
+      width: 14px;
+      height: 14px;
+      flex-shrink: 0;
+    }
+
+    .hero-btns {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      padding: .7rem 1.6rem;
+      border: 1px solid var(--accent);
+      border-radius: 6px;
+      color: var(--accent);
+      font-size: .9rem;
+      font-weight: 500;
+      background: transparent;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: background .2s;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .btn-primary:hover {
+      background: rgba(100, 255, 218, 0.08);
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 5rem 10vw;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .section-label {
+      font-size: .8rem;
+      color: var(--accent);
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      margin-bottom: .5rem;
+      font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .section-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      font-weight: 700;
+      color: var(--lightest-slate);
+      margin-bottom: 2.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .section-title::after {
+      content: '';
+      flex: 1;
+      max-width: 280px;
+      height: 1px;
+      background: rgba(136, 146, 176, 0.2);
+    }
+
+    /* ABOUT */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 3rem;
+      align-items: start;
+    }
+
+    .about-text p {
+      line-height: 1.9;
+      margin-bottom: 1.1rem;
+      font-size: .97rem;
+    }
+
+    /* FIX: added position:relative so ::before overlay renders correctly */
+    .about-photo {
+      border-radius: 16px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .about-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform .3s ease;
+      display: block;
+    }
+
+    .about-photo:hover img {
+      transform: scale(1.05);
+    }
+
+    .about-photo::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 50% 50%, rgba(100, 255, 218, 0.06), transparent 70%);
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    /* SKILLS */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+    }
+
+    .skill-card {
+      background: var(--navy3);
+      border: 1px solid rgba(136, 146, 176, 0.1);
+      border-radius: 10px;
+      padding: 1.2rem 1.4rem;
+      transition: border-color .3s, transform .3s;
+    }
+
+    .skill-card:hover {
+      border-color: rgba(100, 255, 218, 0.3);
+      transform: translateY(-3px);
+    }
+
+    .skill-cat {
+      font-size: .72rem;
+      color: var(--accent);
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      margin-bottom: .7rem;
+      font-weight: 600;
+    }
+
+    .skill-list {
+      list-style: none;
+    }
+
+    .skill-list li {
+      font-size: .88rem;
+      color: var(--light-slate);
+      padding: .25rem 0;
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+    }
+
+    .skill-list li::before {
+      content: '▸';
+      color: var(--accent);
+      font-size: .7rem;
+    }
+
+    /* PROJECTS */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .project-card {
+      background: var(--navy3);
+      border: 1px solid rgba(136, 146, 176, 0.1);
+      border-radius: 12px;
+      padding: 1.6rem;
+      transition: border-color .3s, transform .3s;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .project-card:hover {
+      border-color: rgba(100, 255, 218, 0.25);
+      transform: translateY(-4px);
+    }
+
+    .project-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .project-icon {
+      color: var(--accent);
+      font-size: 1.8rem;
+    }
+
+    .project-badge {
+      font-size: .68rem;
+      padding: .3rem .7rem;
+      border-radius: 20px;
+      font-weight: 600;
+      letter-spacing: .06em;
+    }
+
+    .badge-soon {
+      background: rgba(100, 255, 218, 0.1);
+      color: var(--accent);
+    }
+
+    .badge-done {
+      background: rgba(87, 203, 255, 0.1);
+      color: var(--accent2);
+    }
+
+    .project-name {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--lightest-slate);
+    }
+
+    .project-desc {
+      font-size: .88rem;
+      line-height: 1.7;
+      color: var(--slate);
+    }
+
+    .project-tech {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .4rem;
+      margin-top: auto;
+    }
+
+    .tech-tag {
+      font-size: .72rem;
+      color: var(--accent2);
+      background: rgba(87, 203, 255, 0.07);
+      border-radius: 4px;
+      padding: .2rem .55rem;
+    }
+
+    /* CONTACT */
+    #contact {
+      text-align: center;
+    }
+
+    .contact-inner {
+      max-width: 560px;
+      margin: 0 auto;
+    }
+
+    .contact-inner p {
+      line-height: 1.8;
+      margin-bottom: 2rem;
+    }
+
+    .contact-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .contact-link {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      font-size: .9rem;
+      color: var(--light-slate);
+      text-decoration: none;
+      padding: .5rem 1rem;
+      border: 1px solid rgba(136, 146, 176, 0.2);
+      border-radius: 6px;
+      transition: color .2s, border-color .2s;
+    }
+
+    .contact-link:hover {
+      color: var(--accent);
+      border-color: var(--accent);
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: .8rem;
+      color: rgba(136, 146, 176, 0.4);
+      border-top: 1px solid rgba(136, 146, 176, 0.08);
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ANIMATIONS */
+    /* FIX: hero elements visible immediately; other fade-ups animate on scroll after gate */
+    .fade-up {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity .7s, transform .7s;
+    }
+
+    .fade-up.visible {
+      opacity: 1;
+      transform: none;
+    }
+
+    /* Hero items visible by default so they show even before gate is passed */
+    #hero .fade-up {
+      opacity: 1;
+      transform: none;
+    }
+
+    @media(max-width:768px) {
+      .about-grid {
+        grid-template-columns: 1fr;
+      }
+
+      nav .nav-links {
+        gap: 1.2rem;
+      }
+
+      section {
+        padding: 4rem 6vw;
+      }
+
+      #hero {
+        padding: 0 6vw;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- FIX: Changed <form> to <div> — the form was submitting and reloading the page,
+     which prevented the JS enterPortfolio() from running -->
+  <div id="gate" role="dialog" aria-modal="true" aria-label="Welcome Gate">
+    <canvas id="gate-canvas" aria-hidden="true"></canvas>
+    <div class="gate-box">
+      <h2>Welcome 👋</h2>
+      <p>
+        Before you explore my portfolio, please leave your email —
+        I'd love to know who's visiting!
+      </p>
+      <input type="email" id="gate-email" placeholder="sam@email.com" autocomplete="email">
+      <div class="gate-error" id="gate-err"></div>
+      <button type="button" class="gate-btn" onclick="enterPortfolio()">
+        Enter Portfolio →
+      </button>
+      <p class="gate-note">
+        Your email is kept private and only seen by me.
+      </p>
+    </div>
+  </div>
+
+  <!-- BG PARTICLE CANVAS -->
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+  <!-- NAV -->
+  <nav id="navbar" aria-label="Main Navigation">
+    <div class="nav-logo">Sampreeth G</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero" aria-label="Introduction">
+      <div class="hero-inner">
+        <p class="hero-tag fade-up">Hi, my name is</p>
+        <h1 class="hero-name fade-up">Sampreeth G.</h1>
+        <h2 class="hero-title fade-up">Full-Stack Developer &amp; AI Systems Engineer.</h2>
+        <p class="hero-desc fade-up">
+          I design and engineer thoughtful, high-performance web applications, intelligent AI systems, and connected IoT
+          solutions. Engineering student and hackathon innovator turning ideas into real-world digital products.
+        </p>
+        <div class="hero-college fade-up">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"
+            focusable="false">
+            <path d="M3 21h18M3 7v14M21 7v14M12 3L3 7l9 4 9-4-9-4zM9 21v-8M15 21v-8" />
+          </svg>
+          Sri Shakthi Institute of Engineering and Technology, Coimbatore
+        </div>
+        <div class="hero-btns fade-up">
+          <a href="#projects" class="btn-primary">View My Work</a>
+          <a href="#contact" class="btn-primary">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" style="max-width:1100px;margin:0 auto;" aria-label="About Sampreeth G">
+      <p class="section-label fade-up">01</p>
+      <h2 class="section-title fade-up">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text fade-up">
+          <p>I'm Sampreeth, a Full-Stack Developer, AI enthusiast, and engineering student at Sri Shakthi Institute of
+            Engineering and Technology, Coimbatore. I have a genuine passion for building scalable digital products and
+            smart connected systems that solve tangible, real-world problems.</p>
+          <p>My technical expertise spans modern full-stack web architectures, IoT hardware-software integration, and
+            machine learning workflows. An active hackathon competitor and hands-on builder, I thrive on taking projects
+            from abstract whiteboard concepts to production-grade deployments.</p>
+          <p>I'm currently developing <strong style="color:var(--accent)">GradeVision AI</strong> — an intelligent,
+            multimodal AI-powered platform for automated handwritten answer sheet evaluation and grading designed for
+            academic institutions.</p>
+          <p>Alongside my AI research, I engineered the <strong style="color:var(--accent)">CGPA/Grade
+              Calculator</strong> — a private, browser-based academic tracker with zero server dependencies, and several
+            IoT and automation utilities.</p>
+        </div>
+        <div class="about-photo fade-up">
+          <img src="profile.jpeg" alt="Sampreeth G - Full-Stack Developer, AI &amp; IoT Systems Engineer" width="400"
+            height="400" loading="lazy" decoding="async">
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" style="max-width:1100px;margin:0 auto;" aria-label="Technical Skills">
+      <p class="section-label fade-up">02</p>
+      <h2 class="section-title fade-up">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card fade-up">
+          <h3 class="skill-cat">Frontend</h3>
+          <ul class="skill-list">
+            <li>HTML5 / CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>Responsive Design</li>
+            <li>Glassmorphism UI Design</li>
+          </ul>
+        </div>
+        <div class="skill-card fade-up">
+          <h3 class="skill-cat">Backend</h3>
+          <ul class="skill-list">
+            <li>Node.js</li>
+            <li>Python</li>
+            <li>Express.js</li>
+            <li>RESTful APIs</li>
+          </ul>
+        </div>
+        <div class="skill-card fade-up">
+          <h3 class="skill-cat">Programming</h3>
+          <ul class="skill-list">
+            <li>Java</li>
+            <li>Python</li>
+            <li>JavaScript (ES6+)</li>
+            <li>C / Embedded Basics</li>
+          </ul>
+        </div>
+        <div class="skill-card fade-up">
+          <h3 class="skill-cat">IoT &amp; Hardware</h3>
+          <ul class="skill-list">
+            <li>Sensors &amp; Actuators</li>
+            <li>Microcontroller Interfacing</li>
+            <li>MQTT / Serial Protocols</li>
+            <li>Hardware-Software Integration</li>
+          </ul>
+        </div>
+        <div class="skill-card fade-up">
+          <h3 class="skill-cat">AI / Machine Learning</h3>
+          <ul class="skill-list">
+            <li>Python</li>
+            <li>Handwriting OCR</li>
+            <li>PyTorch</li>
+            <li>Computer Vision</li>
+          </ul>
+        </div>
+        <div class="skill-card fade-up">
+          <h3 class="skill-cat">Database</h3>
+          <ul class="skill-list">
+            <li>MongoDB</li>
+            <li>MySQL</li>
+            <li>localStorage / IndexedDB</li>
+          </ul>
+        </div>
+        <div class="skill-card fade-up">
+          <h3 class="skill-cat">Tools &amp; Methods</h3>
+          <ul class="skill-list">
+            <li>Git &amp; GitHub</li>
+            <li>Postman / API Testing</li>
+            <li>Hackathon Prototyping</li>
+            <li>Node Package Manager (npm)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" style="max-width:1100px;margin:0 auto;" aria-label="Featured Projects">
+      <p class="section-label fade-up">03</p>
+      <h2 class="section-title fade-up">Projects</h2>
+      <div class="projects-grid">
+
+        <article class="project-card fade-up">
+          <div class="project-top">
+            <div class="project-icon" aria-hidden="true">📚</div>
+            <span class="project-badge badge-soon">Coming Soon</span>
+          </div>
+          <h3 class="project-name">Smart Library Book Locator</h3>
+          <p class="project-desc">An IoT-enabled smart library locator system designed to help students and faculty
+            quickly find books by shelf and section using interactive indoor mapping and real-time database queries.</p>
+          <div class="project-tech">
+            <span class="tech-tag">IoT Concept</span>
+            <span class="tech-tag">HTML5</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">MongoDB</span>
+          </div>
+        </article>
+
+        <article class="project-card fade-up">
+          <div class="project-top">
+            <div class="project-icon" aria-hidden="true">💬</div>
+            <span class="project-badge badge-soon">Coming Soon</span>
+          </div>
+          <h3 class="project-name">Auto Reply Automation</h3>
+          <p class="project-desc">A Java-based communication automation solution that listens for incoming messaging
+            triggers and delivers intelligent, rule-based responses to verified contacts with automated failover.</p>
+          <div class="project-tech">
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">Selenium WebDriver</span>
+            <span class="tech-tag">Automation</span>
+            <span class="tech-tag">Maven</span>
+            <span class="tech-tag">XPath/CSS Selectors</span>
+          </div>
+        </article>
+
+        <article class="project-card fade-up">
+          <div class="project-top">
+            <div class="project-icon" aria-hidden="true">💻⚠️</div>
+            <span class="project-badge badge-soon">Coming Soon</span>
+          </div>
+          <h3 class="project-name">Laptop Alert Security System</h3>
+          <p class="project-desc">A lightweight device security monitor that detects unauthorized workstation access via
+            system event hooks and dispatches instant security alerts via secure SMTP services.</p>
+          <div class="project-tech">
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">IoT Security</span>
+            <span class="tech-tag">Jakarta Mail API</span>
+            <span class="tech-tag">Task Scheduler</span>
+          </div>
+        </article>
+
+        <article class="project-card fade-up">
+          <div class="project-top">
+            <div class="project-icon" aria-hidden="true">🎓💯</div>
+            <span class="project-badge badge-done">Done</span>
+          </div>
+          <h3 class="project-name">GradeVision AI</h3>
+          <p class="project-desc">A multimodal AI evaluation platform engineered for modern academic institutions and
+            hackathon competition. Automates grading of handwritten answer sheets using OCR, semantic rubric matching,
+            interactive dual-pane faculty UI, and granular analytics.</p>
+          <div class="project-tech">
+            <span class="tech-tag">AI / Machine Learning</span>
+            <span class="tech-tag">Computer Vision</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">Express.js</span>
+            <span class="tech-tag">Hackathon</span>
+          </div>
+        </article>
+
+        <article class="project-card fade-up">
+          <div class="project-top">
+            <div class="project-icon" aria-hidden="true">📊</div>
+            <span class="project-badge badge-done">Done</span>
+          </div>
+          <h3 class="project-name">CGPA &amp; Grade Calculator</h3>
+          <p class="project-desc">A privacy-first, client-side progressive web application designed for fast, accurate
+            calculation of semester SGPA and cumulative CGPA with persistent browser storage and zero server overhead.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Full-Stack Frontend</span>
+            <span class="tech-tag">HTML5</span>
+            <span class="tech-tag">CSS3</span>
+            <span class="tech-tag">JavaScript (ES6+)</span>
+            <span class="tech-tag">LocalStorage</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" style="max-width:1100px;margin:0 auto;text-align:center;" aria-label="Contact Information">
+      <p class="section-label fade-up" style="text-align:center;">04</p>
+      <h2 class="section-title fade-up" style="justify-content:center;">Get In Touch</h2>
+      <div class="contact-inner fade-up">
+        <p>I'm always open to new opportunities, collaborations, or discussing full-stack development, AI, IoT, and
+          upcoming hackathons. My inbox is open — feel free to reach out!</p>
+        <a href="https://wa.me/918015602780?text=Hello" target="_blank" rel="noopener noreferrer" class="btn-primary"
+          style="margin-bottom:2rem;">Say Hello through WhatsApp →</a>
+        <div class="contact-links">
+          <a href="https://github.com/sampreethg" target="_blank" rel="noopener noreferrer" class="contact-link"
+            aria-label="GitHub Profile">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path
+                d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 013-.4c1.02 0 2.04.13 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z" />
+            </svg>
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/sampreeth-g-329224374" target="_blank" rel="noopener noreferrer"
+            class="contact-link" aria-label="LinkedIn Profile">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path
+                d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.37V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.59 0 4.25 2.36 4.25 5.43v6.31zM5.34 7.43a2.06 2.06 0 110-4.12 2.06 2.06 0 010 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0z" />
+            </svg>
+            LinkedIn
+          </a>
+          <a href="mailto:sampreeth032@example.com" class="contact-link" aria-label="Send an Email">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+              aria-hidden="true" focusable="false">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+            Email
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Designed &amp; Built by <span style="color:var(--accent)">Sampreeth G</span> · 2025</p>
+  </footer>
+
+  <script>
+    // ---- GATE CANVAS PARTICLES ----
+    (function () {
+      const c = document.getElementById('gate-canvas');
+      const ctx = c.getContext('2d', { willReadFrequently: false });
+      let W, H, pts = [], gateActive = true, lastTime = 0, rafId = null;
+
+      function resize() { W = c.width = window.innerWidth; H = c.height = window.innerHeight; }
+      resize();
+      window.addEventListener('resize', resize);
+
+      const TWO_PI = Math.PI * 2;
+
+      for (let i = 0; i < 50; i++) {
+        pts.push({
+          x: Math.random() * window.innerWidth,
+          y: Math.random() * window.innerHeight,
+          r: Math.random() * 1.2 + .3,
+          vx: (Math.random() - .5) * .15,
+          vy: (Math.random() - .5) * .15,
+          a: Math.random() * TWO_PI
+        });
+      }
+
+      // Throttled to ~30fps instead of 60fps
+      function draw(ts) {
+        if (!gateActive) { rafId = null; return; }
+        if (ts - lastTime < 33) { rafId = requestAnimationFrame(draw); return; }
+        lastTime = ts;
+        ctx.clearRect(0, 0, W, H);
+        pts.forEach(p => {
+          p.x += p.vx; p.y += p.vy;
+          if (p.x < 0) p.x = W; if (p.x > W) p.x = 0;
+          if (p.y < 0) p.y = H; if (p.y > H) p.y = 0;
+          // FIX: wrap phase with modulo instead of letting it grow forever
+          p.a = (p.a + .004) % TWO_PI;
+          const alpha = .4 + .35 * Math.sin(p.a);
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r, 0, TWO_PI);
+          ctx.fillStyle = `rgba(100,255,218,${alpha})`;
+          ctx.fill();
+        });
+        rafId = requestAnimationFrame(draw);
+      }
+
+      function startLoop() { if (gateActive && rafId === null) rafId = requestAnimationFrame(draw); }
+      function stopLoop() { if (rafId !== null) { cancelAnimationFrame(rafId); rafId = null; } }
+
+      // FIX: actually pause the animation loop when the tab is hidden instead of
+      // letting it keep queuing frames — this is what was slowly building up CPU
+      // usage and causing the page to lock up after being left open a while
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) stopLoop(); else startLoop();
+      });
+
+      startLoop();
+
+      // Expose stopper so gate dismissal can kill this loop for good
+      window._stopGateAnim = () => { gateActive = false; stopLoop(); };
+    })();
+
+    // ---- GATE LOGIC ----
+    function enterPortfolio() {
+      const inp = document.getElementById('gate-email');
+      const err = document.getElementById('gate-err');
+      const val = inp.value.trim();
+      const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+      if (!val) { err.textContent = 'Please enter your email address.'; return; }
+      if (!re.test(val)) { err.textContent = 'Please enter a valid email address.'; return; }
+      err.textContent = '';
+
+      // Send email to Formspree
+      fetch('https://formspree.io/f/meewnaeq', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: val })
+      });
+      // Stop gate animation before starting main
+      if (window._stopGateAnim) window._stopGateAnim();
+
+      const gate = document.getElementById('gate');
+      gate.style.transition = 'opacity .6s';
+      gate.style.opacity = '0';
+
+      setTimeout(() => {
+        gate.style.display = 'none';
+        initMain();
+      }, 600);
+    }
+
+    document.getElementById('gate-email').addEventListener('keydown', e => {
+      if (e.key === 'Enter') enterPortfolio();
+    });
+
+    // ---- MAIN PARTICLE BG ----
+    function initMain() {
+      const c = document.getElementById('bg-canvas');
+      const ctx = c.getContext('2d', { willReadFrequently: false });
+      let W, H, stars = [], lastTime = 0, rafId = null;
+
+      function resize() { W = c.width = window.innerWidth; H = c.height = window.innerHeight; }
+      resize();
+      window.addEventListener('resize', resize);
+
+      const TWO_PI = Math.PI * 2;
+
+      for (let i = 0; i < 70; i++) {
+        stars.push({
+          x: Math.random() * window.innerWidth,
+          y: Math.random() * window.innerHeight,
+          r: Math.random() * 1.3 + .2,
+          a: Math.random() * TWO_PI,
+          speed: Math.random() * .006 + .002,
+          vx: (Math.random() - .5) * .08,
+          vy: (Math.random() - .5) * .08,
+          color: Math.random() > .5 ? '100,255,218' : '87,203,255'
+        });
+      }
+
+      // Throttled to ~24fps — smooth enough, very light on CPU
+      function draw(ts) {
+        if (ts - lastTime < 42) { rafId = requestAnimationFrame(draw); return; }
+        lastTime = ts;
+        ctx.clearRect(0, 0, W, H);
+        stars.forEach(s => {
+          s.x += s.vx; s.y += s.vy;
+          // FIX: wrap phase with modulo instead of letting it grow forever
+          s.a = (s.a + s.speed) % TWO_PI;
+          if (s.x < 0) s.x = W; if (s.x > W) s.x = 0;
+          if (s.y < 0) s.y = H; if (s.y > H) s.y = 0;
+          const alpha = .15 + .3 * Math.sin(s.a);
+          ctx.beginPath();
+          ctx.arc(s.x, s.y, s.r, 0, TWO_PI);
+          ctx.fillStyle = `rgba(${s.color},${alpha})`;
+          ctx.fill();
+        });
+        rafId = requestAnimationFrame(draw);
+      }
+
+      function startLoop() { if (rafId === null) rafId = requestAnimationFrame(draw); }
+      function stopLoop() { if (rafId !== null) { cancelAnimationFrame(rafId); rafId = null; } }
+
+      // FIX: pause the loop while the tab is hidden/backgrounded so it can't
+      // silently pile up CPU usage over a long browsing session — this was the
+      // main cause of the page eventually locking up ("freezing after a while")
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) stopLoop(); else startLoop();
+      });
+
+      startLoop();
+
+      // Scroll animations
+      const obs = new IntersectionObserver(entries => {
+        entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+      }, { threshold: .12 });
+      document.querySelectorAll('.fade-up:not(#hero .fade-up)').forEach(el => obs.observe(el));
+    }
+  </script>
+</body>
+
+</html>
